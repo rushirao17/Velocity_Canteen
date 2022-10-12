@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:black;
+}
+
+/* Navbar decoration */
+.bg-dark{
+	padding-top: 0.5cm;
+	padding-left: 1cm;
+	background-color: rgb(0, 0, 0) !important;
+}
+
+.navbar-brand img{
+	height: 40px;
+	margin-right: 10px;
+	border-radius: 5%;
+}
+
+.navbar-brand{	
+	margin-top: auto;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.navbar-light{
+	color: #a11111 !important;
+}
+
+.navbor a{
+	margin-right: 10px;
+	border-bottom: 2px solid transparent;
+}
+
+.navbor a:hover{
+	border-bottom:solid 2px #a11111;
+}
+
+.active a{
+	border-bottom: 2px solid;
+}
+
+.admin a{
+	background: #a11111;
+	color: #fff !important;
+	border-radius: 10px;
+	padding: 5px 15px;
+	margin:0 1cm;
+	border: #a11111;
+	box-shadow: 2px 2px 15px #a11111;
+}
+
+.admin a:hover{	
+	background: #ff0e01d7;
+}
+
+.cuscol{
+	color: #fff;
+}
+.container{
+	margin-top: 4%;
+	color: rgb(0, 0, 0);
+}
+
+.logintype{
+	font-size: 30px;
+	/*text-align: center;*/
+}
+
+.buttonss a{
+	background: #961102;
+	padding: 5px 15px;
+	border-radius: 15px ;
+	border: black;
+}
+
+.buttonss a:hover{
+	background: #ff0e01d7;
+}
+
+.jumbotron{
+	color: #fff;
+	background-color:rgba(109, 109, 109, 0.4);
+}
+
+
+my-4{
+	color: #a11111;
+}
+
+
+
+.navbor{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+
+.nav-item::after{
+    content: '';
+    position: absolute;
+    left: 0;bottom: 0;
+    width: 100%;height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+.nav-item:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
